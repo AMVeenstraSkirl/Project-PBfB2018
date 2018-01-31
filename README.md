@@ -1,7 +1,6 @@
 *PBfB2018 project "SQL search engine"*
-
-By Kiran Gurung and Anne-Marie Veenstra-Skirl
------------------------------------------------
+--------------------------------------
+**By Kiran Gurung and Anne-Marie Veenstra-Skirl**
 
 This project's goal was to write a python script that would provide the user with a custom search in an SQL database. 
 
