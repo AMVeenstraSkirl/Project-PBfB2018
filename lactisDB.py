@@ -32,19 +32,43 @@ Please choose only one field.
 '''
 print StartingPrompt
 
+##Get the columns to be searched
+#-------------------------------
+
 #save the search field
 SearchField = raw_input("In which field do you want to search?\n")
 
+#Check the search term and request new input until it matches the mySQL format (small letters)
+SearchFieldList=['device','location','owner','species','strain','plasmid','info','abm(antibiotic marker)','abm','abm (antibiotic marker)','genotype','datum']
+
+while SearchField not in SearchFieldList:
+        SearchField=raw_input("Field not recognized. Input has to be in small letters. Please type again!\n")
+
+#the ambigous input for the antibiotic marker is reformatted for the mySQL command
+if SearchField == 'abm(antibiotic marker)' or SearchField == 'abm (antibiotic marker)':
+        SearchField = 'abm'
+
 #save the search term
 SearchTerm = raw_input("Please enter your search term. You can use % as a wildcard.\n")
+
+
+##Ask whether the results should be sorted according to a certain column
+#-----------------------------------------------------------------------
 
 #Any sorting?
 print "Do you want to sort the results?"
 SortYN = raw_input("Yes/No\t")
 
+#A list with possible answers to the input request
+SortYList = ['Yes','yes','Y','y','YES','Ja','ja','J','j']
+
 #if sorting, ask for the column
-if SortYN == "Yes":
+if SortYN in SortYList:
         SearchSort = raw_input("According to what column do wou want to sort your results?")
+
+	#Check the input for the sorting column
+	while SearchSort not in SearchFieldList:
+        	SearchSort=raw_input("Field not recognized. Input has to be in small letters. Please type again!\n")
 
 
 #Doing the search and working with the results
@@ -52,7 +76,7 @@ if SortYN == "Yes":
 
 #Execute an SQL command
 
-if SortYN == "No":
+if SortYN not in SortYList:
 	#mySQL command without sorting
 	SQL = "SELECT device,location,owner,species,strain,plasmid,info,abm,genotype,datum FROM lactis WHERE %s LIKE '%s';" % (SearchField, SearchTerm)
 else:
