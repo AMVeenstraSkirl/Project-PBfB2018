@@ -21,7 +21,7 @@ ResultFile = open(ResultFileName, 'w')
 #----------------------------------------------------------------
 
 #print an introduction to the script for the user
-StartingPrompt='''This is a search engine for the database "lactis.sql"
+StartingPrompt='''This is a search engine for the database "fakeDB.sql"
 
 You can search among the following fields:
 
