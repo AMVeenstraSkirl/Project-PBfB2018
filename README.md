@@ -6,12 +6,12 @@ This project's goal was to write a python script that would provide the user wit
 
 Requirements for the script to be able to work
 
-..*having a *.sql file that you want to use
-
-  *Installed software and software packages
-    -My SQL Server package
+  * Installed software and software packages
+    -My SQL Server (in Linux via Synaptic package manager)
     -Python 2.7 or higher
 
-  *preparations before using the script
+  * an SQL database-file (fakeDB.sql)
+
+  * preparations before using the script
     -load the database into the mySQL Server
- 
+
