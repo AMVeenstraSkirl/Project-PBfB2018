@@ -1,4 +1,4 @@
-#PBfB2018 project "SQL search engine"
+PBfB2018 project "SQL search engine"
 --------------------------------------
 **By Kiran Gurung and Anne-Marie Veenstra-Skirl**
 
