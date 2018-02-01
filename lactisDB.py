@@ -9,7 +9,7 @@
 import MySQLdb		#for the interactions with MySQL
 
 #make a connection to the SQL server
-MyConnection = MySQLdb.connect( host = "localhost", user = "root", passwd = "PBfB2018", db = "lactis")
+MyConnection = MySQLdb.connect( host = "localhost", user = "root", passwd = "PBfB2018", db = "fakeDB")
 MyCursor = MyConnection.cursor()
 
 #preparing to write the results in a file
@@ -119,6 +119,13 @@ Device    \tLocation\towner\tspecies\tstrain\tplasmid\tinfo\tabm\tgenotype\tdatu
 -----------------------------------------------------------------------------------------------
 
 """)
+
+
+
+
+
+
+
 
 
 #Collecting the result lines and prints them

@@ -1,26 +1,28 @@
 
 
-Your SQL Search: SELECT device,location,owner,species,strain,plasmid,info,abm,genotype,datum from lactis WHERE owner LIKE '%Skirl' ORDER BY plasmid;
+Your SQL Search: SELECT device,location,owner,species,strain,plasmid,info,abm,genotype,datum FROM lactis WHERE owner LIKE '%Skirl';
 
-Number of hits: 16
+Number of hits: 18
 
 -----------------------------------------------------------------------------------------------
 Device    	Location	owner	species	strain	plasmid	info	abm	genotype	datum
 -----------------------------------------------------------------------------------------------
 
-freezer_E	13G01	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         					01-05-2017
-freezer_E	13G00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13H00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13I00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13G02	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         					13-09-2017
-freezer_E	13G03	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           					13-09-2017
-freezer_E	13G06	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           	pCS1966	empty vector	Erythromycine		13-09-2017
-freezer_E	13G05	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pIL253-PnisA (pILN)	empty vector	Erythromycine		13-09-2017
-freezer_E	13G04	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048	empty vector	Chloramphenicol		13-09-2017
-freezer_E	13G07	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048-gfp		Chloramphenicol		13-09-2017
-freezer_E	13G08	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 8			13-09-2017
-freezer_E	13G09	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 10			13-09-2017
-freezer_E	13G11	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 1			13-09-2017
-freezer_E	13G12	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 2			13-09-2017
-freezer_E	13G13	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 3			13-09-2017
-freezer_E	13G10	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-trhexA	380 bp cut off of N-terminal end of gene hexA			13-09-2017
+freezer_Q	13P01	Anita Skirl	L. lactis      	MG1363         		my colony			01-05-1612
+freezer_Q	13P02	Anita Skirl	L. lactis      	MG1364         	plasmid 1	does something awesome			01-05-1612
+freezer_Q	13P03	Anita Skirl	L. lactis      	MG1365         	plasmid 2	does something different			05-05-1612
+freezer_Q	13P04	Anita Skirl	L. lactis      	MG1366         	plasmid 3	this is useful			08-05-1612
+freezer_Q	13P05	Anita Skirl	L. lactis      	MG1363         	plasmid 4	this too			13-05-1612
+freezer_Q	13P06	Anita Skirl	L. lactis      	MG1363         	plasmid 5	science advances through this			21-05-1612
+freezer_Q	13P07	Anita Skirl	E. coli        	MG1363         		help for cloning			01-06-1612
+freezer_Q	13P08	Anita Skirl	E. coli        	MG1364         	plasmid 1	more help			01-06-1612
+freezer_Q	13P09	Anita Skirl	E. coli        	MG1365         	plasmid 2	without this i cannot clone			03-06-1612
+freezer_Q	13P10	Anita Skirl	E. coli        	MG1366         	plasmid 3	this has finally worked			03-06-1612
+freezer_Q	13P11	Anita Skirl	E. coli        	MG1363         	plasmid 4	this is a test strain			07-06-1612
+freezer_Q	13P12	Anita Skirl	E. coli        	MG1363         	plasmid 5	test something more			17-06-1612
+freezer_Q	13P13	Anita Skirl	B. subtilis    	MG1363         		sometimes we switch species			01-09-1612
+freezer_Q	13P14	Anita Skirl	B. subtilis    	MG1364         	plasmid 1	this is another test			01-09-1612
+freezer_Q	13P15	Anita Skirl	B. subtilis    	MG1365         	plasmid 2	some details on this strain			01-09-1612
+freezer_Q	13P16	Anita Skirl	B. subtilis    	MG1366         	plasmid 3	more details			01-09-1612
+freezer_Q	13P17	Anita Skirl	B. subtilis    	MG1363         	plasmid 4	less details			01-09-1612
+freezer_Q	13P18	Anita Skirl	B. subtilis    	MG1363         	plasmid 5	no details			01-09-1612
