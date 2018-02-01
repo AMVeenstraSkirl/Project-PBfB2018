@@ -1,5 +1,9 @@
 
 
+Your SQL Search: SELECT device,location,owner,species,strain,plasmid,info,abm,genotype,datum from lactis WHERE owner LIKE '%Skirl' ORDER BY plasmid;
+
+Number of hits: 16
+
 -----------------------------------------------------------------------------------------------
 Device    	Location	owner	species	strain	plasmid	info	abm	genotype	datum
 -----------------------------------------------------------------------------------------------
@@ -10,45 +14,13 @@ freezer_E	13H00	Anne-Marie Veenstra-Skirl	               	               					16
 freezer_E	13I00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
 freezer_E	13G02	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         					13-09-2017
 freezer_E	13G03	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           					13-09-2017
-freezer_E	13G04	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048	empty vector	Chloramphenicol		13-09-2017
-freezer_E	13G05	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pIL253-PnisA (pILN)	empty vector	Erythromycine		13-09-2017
 freezer_E	13G06	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           	pCS1966	empty vector	Erythromycine		13-09-2017
+freezer_E	13G05	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pIL253-PnisA (pILN)	empty vector	Erythromycine		13-09-2017
+freezer_E	13G04	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048	empty vector	Chloramphenicol		13-09-2017
 freezer_E	13G07	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048-gfp		Chloramphenicol		13-09-2017
 freezer_E	13G08	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 8			13-09-2017
 freezer_E	13G09	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 10			13-09-2017
-freezer_E	13G10	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-trhexA	380 bp cut off of N-terminal end of gene hexA			13-09-2017
 freezer_E	13G11	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 1			13-09-2017
 freezer_E	13G12	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 2			13-09-2017
 freezer_E	13G13	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 3			13-09-2017
-freezer_E	13G01	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         					01-05-2017
-freezer_E	13G00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13H00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13I00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13G02	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         					13-09-2017
-freezer_E	13G03	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           					13-09-2017
-freezer_E	13G04	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048	empty vector	Chloramphenicol		13-09-2017
-freezer_E	13G05	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pIL253-PnisA (pILN)	empty vector	Erythromycine		13-09-2017
-freezer_E	13G06	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           	pCS1966	empty vector	Erythromycine		13-09-2017
-freezer_E	13G07	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048-gfp		Chloramphenicol		13-09-2017
-freezer_E	13G08	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 8			13-09-2017
-freezer_E	13G09	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 10			13-09-2017
 freezer_E	13G10	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-trhexA	380 bp cut off of N-terminal end of gene hexA			13-09-2017
-freezer_E	13G11	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 1			13-09-2017
-freezer_E	13G12	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 2			13-09-2017
-freezer_E	13G13	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 3			13-09-2017
-freezer_E	13G01	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         					01-05-2017
-freezer_E	13G00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13H00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13I00	Anne-Marie Veenstra-Skirl	               	               					16-03-2017
-freezer_E	13G02	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         					13-09-2017
-freezer_E	13G03	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           					13-09-2017
-freezer_E	13G04	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048	empty vector	Chloramphenicol		13-09-2017
-freezer_E	13G05	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pIL253-PnisA (pILN)	empty vector	Erythromycine		13-09-2017
-freezer_E	13G06	Anne-Marie Veenstra-Skirl	E. coli        	DH5a           	pCS1966	empty vector	Erythromycine		13-09-2017
-freezer_E	13G07	Anne-Marie Veenstra-Skirl	L. lactis      	NZ9000         	pNZ8048-gfp		Chloramphenicol		13-09-2017
-freezer_E	13G08	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 8			13-09-2017
-freezer_E	13G09	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-hexA	clone 10			13-09-2017
-freezer_E	13G10	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-trhexA	380 bp cut off of N-terminal end of gene hexA			13-09-2017
-freezer_E	13G11	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 1			13-09-2017
-freezer_E	13G12	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 2			13-09-2017
-freezer_E	13G13	Anne-Marie Veenstra-Skirl	L. lactis      	MG1363         	pNZ8048-recA	clone 3			13-09-2017
